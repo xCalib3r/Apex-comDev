@@ -35,9 +35,9 @@ body {transition: 300ms; margin: 0; padding: 0; font-family: 'Inter', sans-serif
 	height: var(--nav_height);
 	float: left;
 	box-sizing: border-box;
-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
--webkit-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
--moz-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
+	box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
+	-webkit-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
+	-moz-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
 }
 #main {
 	float: left;
@@ -85,12 +85,12 @@ box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
 	background: var(--gray);
 	margin-bottom: 50px;
 	transition: 300ms;
-	
-
 }
 .element:hover {
 	box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
--webkit-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
--moz-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
+	-webkit-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
+	-moz-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
 }
-
+#login{
+	margin-left: 90%;
+}
