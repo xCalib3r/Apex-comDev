@@ -2,16 +2,42 @@ html {margin: 0; padding: 0; font-family: 'Inter', sans-serif;}
 body {transition: 300ms; margin: 0; padding: 0; font-family: 'Inter', sans-serif;}
 
 :root{
-	--nav_height: 60px;
-	--col_white: white;
+	--nav_height: 75px;
+	--ea-dark-color: #161616;
+	--black: #000000;
+	--gray: #161616;
+    --ea-light-color: #f3f3f3;
+    --ea-dark-color-rgb: 22, 22, 22;
+    --ea-light-color-rgb: 243, 243, 243;
+    --origin-brand-color: #f56c2c;
+    --ea-access-brand-color: #0089cd;
+    --xbox-brand-color: #52b043;
+    --playstation-brand-color: #003087;
+    --nintendo-brand-color: #fe0016;
+    --ea-success-color: #00dc8f;
+    --ea-error-color: #ff6969;
+    --apex-red: #DA292A;
+    --apex-pink: #7C00C7;
+    --eacom-theme-color: #f00;
+    --eacom-color-black: #000;
+    --eacom-color-blue: #1b95da;
+    --eacom-color-dark-blue: #242a35;
+    --eacom-color-gray: #a3a3a3;
+    --eacom-color-light-gray: #f3f3f3;
+    --eacom-color-white: #fff;
+    --eacom-color-xbox-green: #029e10;
 }
 
 #upper_nav {
-	background: #145DA0;
+	background: var(--gray);
+	border-bottom: 3px solid var(--apex-red);
 	width: 100vw;
 	height: var(--nav_height);
 	float: left;
 	box-sizing: border-box;
+box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
+-webkit-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
+-moz-box-shadow: -1px -21px 46px -5px rgba(218,41,42,1) inset;
 }
 #main {
 	float: left;
@@ -23,7 +49,7 @@ body {transition: 300ms; margin: 0; padding: 0; font-family: 'Inter', sans-serif
 	width: 20vw;
 	height: calc(100vh - var(--nav_height));
 	float: left;
-	background: #050A30;
+	background: var(--gray);
 	box-sizing: border-box;
 }
 #main #nav_panel ul {
@@ -34,14 +60,14 @@ body {transition: 300ms; margin: 0; padding: 0; font-family: 'Inter', sans-serif
 #main #nav_panel ul li {
 	height: 45px;
 	font-size: 1.25em;
-	color: var(--col_white);
+	color: var(--ea-light-color);
 }
 
 #main #site_body {
 	width: 80vw;
 	height: calc(100vh - var(--nav_height));
 	float: left;
-	background: #B1D4E0;
+	background: var(--black);
 	box-sizing: border-box;
 	overflow-y: scroll;
 }
@@ -56,7 +82,15 @@ body {transition: 300ms; margin: 0; padding: 0; font-family: 'Inter', sans-serif
 	width: 100%;
 	height: 400px;
 	border-radius: 10px;
-	background: var(--col_white);
-	margin-bottom: 25px;
+	background: var(--gray);
+	margin-bottom: 50px;
+	transition: 300ms;
+	
+
+}
+.element:hover {
+	box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
+-webkit-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
+-moz-box-shadow: 1px 25px 42px -14px rgba(124,0,199,1);
 }
 
